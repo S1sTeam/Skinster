@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skinster — скины для оффлайн аккаунтов Minecraft</title>
+    <meta
+      name="description"
+      content="Skinster — мод для Minecraft: ставь скины на оффлайн/пиратские аккаунты и загружай PNG по нику или URL (NameMC, MineSkins и др.)."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="hero" id="top">
+      <nav class="nav container">
+        <a href="#top" class="logo">Skinster</a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Открыть меню" aria-expanded="false">
+          ☰
+        </button>
+
+        <div class="nav-links" id="navLinks">
+          <a href="#features">Возможности</a>
+          <a href="#sources">Источники скина</a>
+          <a href="#how">Установка</a>
+          <a href="#download">Скачать</a>
+        </div>
+      </nav>
+
+      <div class="hero-content container hero-grid">
+        <div>
+          <p class="badge reveal">SKINSTER · СКИНЫ ДЛЯ ОФФЛАЙН-АККАУНТОВ</p>
+          <h1 class="reveal">
+            Твой скин — даже на оффлайн-аккаунте
+            <span>его видят все игроки с модом Skinster</span>
+          </h1>
+          <p class="subtitle reveal">
+            Загружай скин PNG как удобно: по нику (Microsoft/Ely.by), из файла
+            в папку мода или по URL с сайтов MineSkins, NameMC и других.
+          </p>
+          <div class="hero-actions reveal">
+            <a class="btn btn-primary" href="#download">Скачать Skinster</a>
+            <a class="btn btn-ghost" href="#sources">Как загрузить скин</a>
+          </div>
+
+          <div class="creator reveal">
+            <p><b>Создатель:</b> S1sTeam</p>
+            <div class="creator-links">
+              <a href="https://sys.xo.je/?i=1" target="_blank" rel="noreferrer">Основной сайт</a>
+              <a href="https://github.com/S1sTeam" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-image reveal">
+          <img src="assets/steve-hero.svg" alt="Майнкрафт персонаж с киркой" />
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section container" id="features">
+        <h2 class="section-title reveal">Почему Skinster</h2>
+        <div class="cards">
+          <article class="card reveal">
+            <h3>Оффлайн и пиратские аккаунты</h3>
+            <p>Скины работают даже без лицензии Mojang/Microsoft.</p>
+          </article>
+          <article class="card reveal">
+            <h3>Видимость у игроков</h3>
+            <p>Игроки со Skinster видят твой скин и ты видишь их скины.</p>
+          </article>
+          <article class="card reveal">
+            <h3>Удобная загрузка</h3>
+            <p>Поддержка ника, локального PNG-файла и URL на готовый скин.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section-dark" id="sources">
+        <div class="container">
+          <h2 class="section-title reveal">Откуда можно взять скин</h2>
+          <div class="source-grid">
+            <article class="card reveal">
+              <h3>По нику аккаунта</h3>
+              <p>Загрузить скин по нику Microsoft или Ely.by.</p>
+            </article>
+            <article class="card reveal">
+              <h3>Локальный PNG</h3>
+              <p>Закинуть PNG-файл в папку мода и применить в настройках.</p>
+            </article>
+            <article class="card reveal">
+              <h3>По URL</h3>
+              <p>Вставить ссылку на скин с MineSkins, NameMC и похожих сайтов.</p>
+            </article>
+          </div>
+          <p class="note reveal">
+            Важно: нужен прямой URL на изображение скина (обычно заканчивается на <b>.png</b>).
+          </p>
+        </div>
+      </section>
+
+      <section class="section container" id="how">
+        <div class="split">
+          <div>
+            <h2 class="section-title reveal">Установка за минуту</h2>
+            <ol class="steps">
+              <li class="reveal"><span>1</span> Скачай Skinster и добавь в папку <b>mods</b>.</li>
+              <li class="reveal"><span>2</span> Открой настройки мода в игре.</li>
+              <li class="reveal"><span>3</span> Выбери источник: ник, PNG или URL.</li>
+              <li class="reveal"><span>4</span> Применяй — скин сразу виден игрокам со Skinster.</li>
+            </ol>
+          </div>
+          <aside class="info-card reveal">
+            <h3>Поддержка</h3>
+            <p>Работает с оффлайн-профилями и популярными мод-лоадерами.</p>
+            <div class="tags">
+              <span>Forge</span>
+              <span>Fabric</span>
+              <span>Ely.by</span>
+              <span>NameMC URL</span>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section container" id="download">
+        <div class="download-box reveal">
+          <h2>Готов начать?</h2>
+          <p>Скачай последнюю версию Skinster и используй любой удобный источник скина.</p>
+          <a class="btn btn-primary" href="#" role="button">Скачать последнюю версию</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Skinster</p>
+        <a href="#top">Наверх ↑</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
